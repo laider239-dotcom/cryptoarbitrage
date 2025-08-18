@@ -51,7 +51,7 @@ def scan_arbitrage(exchanges, pairs):
                 if price > 0:
                     prices[name] = price
             except Exception as e:
-                pass  # Игнорируем биржи, где не получилось получить цену
+                pass
 
         if len(prices) < 2:
             continue
