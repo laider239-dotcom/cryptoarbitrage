@@ -1,4 +1,5 @@
 # scanner.py
+import os
 import ccxt
 from config import EXCHANGES, QUOTE_SYMBOL, SPREAD_THRESHOLD
 from notify import log_signal, send_telegram
